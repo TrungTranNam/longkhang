@@ -13,7 +13,7 @@ export const Footer = () => {
     description: "Tiêu chuẩn quốc tế về ATTP"
   }, {
     name: "Chứng nhận VSATTP",
-    image: "https://thuvienphapluat.vn/tintuc/GetImage?id=cd3c8e33-a86e-4f87-b6e5-486d948b9dc9",
+    image: "/images/an-toan-thuc-pham.jpg",
     description: "Cục An toàn thực phẩm Việt Nam"
   }];
 
