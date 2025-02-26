@@ -6,10 +6,12 @@ import { ContactButtons } from "./components/ContactButtons";
 import { HomePage } from "./pages/HomePage";
 import { ProductDetail } from "./pages/ProductDetail";
 import { ScrollProvider } from "./components/ScrollContext";
+import ScrollToTop from "./components/ScrollToTop";
 import './assets/css/style.css';
 
 export function App() {
   return <Router>
+      <ScrollToTop />
       <div className="w-full min-h-screen bg-white">
         <Helmet>
           <meta name="keywords" content="wagyu, thịt bò nhật, thịt bò wagyu, a5 wagyu, thịt bò cao cấp" />
